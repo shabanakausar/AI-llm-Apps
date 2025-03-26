@@ -20,6 +20,10 @@ groq_api_key = os.getenv('GROQ_API_KEY')
 os.environ['HF_API_KEY'] = os.getenv('HF_API_KEY')
 hf_api_key = os.getenv('HF_API_KEY')
 
+import os
+import urllib.parse
+os.environ["GROQ_API_KEY"] = urllib.parse.quote(os.getenv("GROQ_API", ""))
+
 
 embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
