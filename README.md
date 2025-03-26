@@ -6,12 +6,12 @@ RAG (Retrieval-Augmented Generation) is a hybrid approach that enhances the perf
 
 ## Features
 
-Document Retrieval: Fetches relevant documents from a knowledge base.
+* Document Retrieval: Fetches relevant documents from a knowledge base.
 
-Text Generation: Uses an LLM (Large Language Model) to generate answers based on retrieved documents.
+* Text Generation: Uses an LLM (Large Language Model) to generate answers based on retrieved documents.
 
-Indexing: Supports vector and keyword-based indexing for efficient search.
+* Indexing: Supports vector and keyword-based indexing for efficient search.
 
-API Integration: Exposes endpoints for seamless integration with other applications.
+* API Integration: Exposes endpoints for seamless integration with other applications.
 
-Configurable Pipeline: Allows customization of retrieval and generation parameters.
+* Configurable Pipeline: Allows customization of retrieval and generation parameters.
